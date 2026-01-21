@@ -87,7 +87,7 @@ h2 {
     margin: 20px auto;
 }
 
-/* ✅ BOUTON TOUJOURS EN DESSOUS DE L’IMAGE ET AU-DESSUS DU TEXTE */
+
 .agri-btn {
     display: block;
     width: fit-content;
@@ -109,7 +109,7 @@ h2 {
     text-align: center;
 }
 
-/* FOOTER */
+
 footer {
     background: #1e293b;
     color: white;
@@ -150,7 +150,7 @@ footer a {
     transform: translateY(0);
 }
 
-/* FLOAT */
+
 .float-img {
     animation: float 4s ease-in-out infinite;
 }
