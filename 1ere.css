@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Segoe UI", sans-serif;
+    background: #f4f6f8;
+    color: #333;
+    transition: 0.4s;
+}
+
+/* HERO */
+.hero {
+    background: linear-gradient(135deg, #1e293b, #2563eb);
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.profile-img {
+    width: 160px;
+    border-radius: 50%;
+    border: 4px solid white;
+    margin-bottom: 15px;
+    animation: float 3s ease-in-out infinite;
+}
+
+/* DARK MODE BUTTON */
+.theme-btn {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 8px 15px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    background: #1e293b;
+    color: white;
+    z-index: 1000;
+}
+
+/* SECTIONS */
+.section {
+    max-width: 900px;
+    margin: auto;
+    padding: 50px 20px;
+    overflow: hidden;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #1e293b;
+}
+
+/* SKILLS */
+.skills-img {
+    max-width: 280px;
+    display: block;
+    margin: 20px auto;
+}
+
+.skill {
+    margin-bottom: 18px;
+}
+
+.bar {
+    background: #ddd;
+    height: 18px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.progress {
+    height: 100%;
+    width: 0;
+    background: linear-gradient(90deg, #2563eb, #60a5fa);
+    transition: width 1.5s ease;
+}
+
+/* AGRICULTURE */
+.agri-img {
+    width: 300px;
+    max-width: 100%;
+    display: block;
+    margin: 20px auto;
+}
+
+/* ✅ BOUTON TOUJOURS EN DESSOUS DE L’IMAGE ET AU-DESSUS DU TEXTE */
+.agri-btn {
+    display: block;
+    width: fit-content;
+    margin: 20px auto 15px;
+    background: #15803d;
+    padding: 10px 22px;
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    transition: 0.3s;
+}
+
+.agri-btn:hover {
+    transform: scale(1.08);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+.agri-text {
+    text-align: center;
+}
+
+/* FOOTER */
+footer {
+    background: #1e293b;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+.btn {
+    display: block;
+    width: fit-content;
+    margin: 20px auto;
+    padding: 12px 28px;
+
+    background: linear-gradient(135deg, #16a34a, #22c55e);
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+
+    text-decoration: none;
+    border-radius: 30px;
+
+    box-shadow: 0 10px 25px rgba(34, 197, 94, 0.45);
+    transition: all 0.3s ease;
+}
+
+footer a {
+    color: #93c5fd;
+}
+
+/* REVEAL */
+.reveal {
+    opacity: 0;
+    transform: translateY(40px);
+    transition: 1s;
+}
+
+.reveal.active {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* FLOAT */
+.float-img {
+    animation: float 4s ease-in-out infinite;
+}
+
+@keyframes float {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+    100% { transform: translateY(0); }
+}
+
+/* DARK MODE */
+body.dark {
+    background: #0f172a;
+    color: #e5e7eb;
+}
+
+body.dark h2 {
+    color: #93c5fd;
+}
+
+body.dark footer {
+    background: #020617;
+}
+
+body.dark .theme-btn {
+    background: #e5e7eb;
+    color: #1e293b;
+}
