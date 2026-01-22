@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+
+>>>>>>> 715a1a2b1ba2acf56fb07739449a67ee5ea69f06
 const reveals = document.querySelectorAll(".reveal");
 
 function revealOnScroll() {
