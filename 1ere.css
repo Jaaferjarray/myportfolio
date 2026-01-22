@@ -11,7 +11,7 @@ body {
     transition: 0.4s;
 }
 
-/* HERO */
+
 .hero {
     background: linear-gradient(135deg, #1e293b, #2563eb);
     color: white;
@@ -27,7 +27,7 @@ body {
     animation: float 3s ease-in-out infinite;
 }
 
-/* DARK MODE BUTTON */
+
 .theme-btn {
     position: fixed;
     top: 20px;
@@ -41,7 +41,7 @@ body {
     z-index: 1000;
 }
 
-/* SECTIONS */
+
 .section {
     max-width: 900px;
     margin: auto;
@@ -54,7 +54,7 @@ h2 {
     color: #1e293b;
 }
 
-/* SKILLS */
+
 .skills-img {
     max-width: 280px;
     display: block;
@@ -79,7 +79,7 @@ h2 {
     transition: width 1.5s ease;
 }
 
-/* AGRICULTURE */
+
 .agri-img {
     width: 300px;
     max-width: 100%;
@@ -87,7 +87,7 @@ h2 {
     margin: 20px auto;
 }
 
-/* ✅ BOUTON TOUJOURS EN DESSOUS DE L’IMAGE ET AU-DESSUS DU TEXTE */
+
 .agri-btn {
     display: block;
     width: fit-content;
@@ -109,7 +109,7 @@ h2 {
     text-align: center;
 }
 
-/* FOOTER */
+
 footer {
     background: #1e293b;
     color: white;
@@ -138,7 +138,7 @@ footer a {
     color: #93c5fd;
 }
 
-/* REVEAL */
+
 .reveal {
     opacity: 0;
     transform: translateY(40px);
@@ -150,7 +150,7 @@ footer a {
     transform: translateY(0);
 }
 
-/* FLOAT */
+
 .float-img {
     animation: float 4s ease-in-out infinite;
 }
@@ -161,7 +161,7 @@ footer a {
     100% { transform: translateY(0); }
 }
 
-/* DARK MODE */
+
 body.dark {
     background: #0f172a;
     color: #e5e7eb;

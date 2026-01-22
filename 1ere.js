@@ -1,4 +1,3 @@
-// Reveal on scroll
 const reveals = document.querySelectorAll(".reveal");
 
 function revealOnScroll() {
@@ -14,7 +13,7 @@ function revealOnScroll() {
 window.addEventListener("scroll", revealOnScroll);
 revealOnScroll();
 
-// Animate skills
+
 const skills = document.querySelectorAll(".skill");
 
 function animateSkills() {
@@ -27,7 +26,7 @@ function animateSkills() {
 
 window.addEventListener("scroll", animateSkills);
 
-// Dark mode
+
 const toggleBtn = document.getElementById("theme-toggle");
 
 toggleBtn.addEventListener("click", () => {
